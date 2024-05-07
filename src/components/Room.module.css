@@ -1,0 +1,22 @@
+.flexContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  padding-left: 90px;
+}
+
+.h1 {
+  text-align: center;
+  color: #333333;
+  font-weight: 500;
+  font-family: "San Francisco", sans-serif;
+}
+
+p,
+h1,
+button,
+img {
+  font-family: "San Francisco", sans-serif;
+}

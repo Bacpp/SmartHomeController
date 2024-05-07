@@ -1,0 +1,70 @@
+.container {
+  width: 240px; /* Set width and height to the same value to make it a circle */
+  /* height: 400px; */
+  text-align: center;
+  padding: 20px;
+  color: white;
+  box-shadow: 2px 1px 5px rgb(0, 0, 0);
+  border-radius: 12px; /* Make it a circle */
+  background-color: #e7edef; /* Pink background color */
+  margin: 20px; /* Add margin for spacing */
+  position: relative;
+  transition: all 250ms;
+}
+
+.container:hover {
+  box-shadow: 8px 2px 8px rgb(0, 0, 0);
+}
+
+.inline {
+  display: flex;
+  padding-top: 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.p {
+  margin-top: 0px;
+  font-weight: 500;
+  color: black;
+}
+
+.ol {
+  padding-left: 30px;
+}
+.li {
+  color: black;
+  padding-left: 0px;
+  margin-top: 12px;
+  position: relative;
+  font-size: 13px;
+  line-height: 0px;
+  font-weight: 500;
+
+  /* &:before {
+    content: "";
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #507255 ;
+    position: absolute;
+    top: -9px;
+    left: -31px;
+  } */
+}
+
+.ol.alternating-colors {
+  li:nth-child(odd):before {
+    border-color: #0bad02;
+  }
+  .li:nth-child(even):before {
+    border-color: #2378d5;
+  }
+}

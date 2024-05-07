@@ -1,0 +1,20 @@
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  position: absolute;
+  top: 8px; /* Place at the top */
+  right: 5px; /* Place at the right */
+}
+
+.button:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+
+.button:active {
+  transform: scale(0.9); /* Zoom out by 10% on click (active state) */
+}
