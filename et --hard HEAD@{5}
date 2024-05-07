@@ -1,0 +1,13 @@
+[33m5e47007[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: reset: moving to HEAD@{0}
+[33m5e47007[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{1}: reset: moving to HEAD@{1}
+[33m742cbbc[m HEAD@{2}: reset: moving to HEAD@{6}
+[33m5e47007[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{3}: pull origin master: Fast-forward
+[33m742cbbc[m HEAD@{4}: checkout: moving from feature/toggle-switch to master
+[33m442c5ce[m[33m ([m[1;32mfeature/toggle-switch[m[33m)[m HEAD@{5}: pull origin master: Merge made by the 'ort' strategy.
+[33mbb190af[m HEAD@{6}: commit: style(ui): Updated styles for toggle-button, mode-selector and device-add-menu
+[33m10738e5[m HEAD@{7}: commit: feat/toggle-switch
+[33m79ec4a6[m[33m ([m[1;31morigin/feature/toggle-switch[m[33m)[m HEAD@{8}: commit: Button.js
+[33m742cbbc[m HEAD@{9}: checkout: moving from master to feature/toggle-switch
+[33m742cbbc[m HEAD@{10}: checkout: moving from feature/toggle-switch to master
+[33m742cbbc[m HEAD@{11}: checkout: moving from master to feature/toggle-switch
+[33m742cbbc[m HEAD@{12}: commit (initial): First commit
